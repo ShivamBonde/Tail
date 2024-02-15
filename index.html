@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind-css</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="relative">
+    <div class="color w-full h-screen absolute -z-10 flex flex-col">
+        <div class="color1 w-full h-1/2  bg-color"></div>
+        <div class="color2 w-full h-1/2  bg-white"></div>
+    </div>
+    <div class="main w-full h-screen flex items-center justify-center font-fontss bg-bluecolor">
+    <div class="card group w-1/5 h-3/6 shadow-2xl relative hover:w-128 flex transition-all duration-500 ease-linear">
+        <div class="imgbx w-full max-w-80 h-full z-10 relative bg-white flex items-center justify-center overflow-hidden">
+            <img src="shoe.jpg" alt="" class="group-hover:-rotate-35 group-hover:mr-10 transition-all duration-500 ease-linear">
+        </div>
+        <div class="details text-white opacity-0 w-full max-w-80 h-full bg-color absolute flex flex-col justify-center group-hover:left-80 group-hover:opacity-100 p-5 pt-0 transition-all duration-500 ease-linear">
+            <h1 class="text-3xl font-bold mt-2">NIKE AIR MAX<br>
+                <span class="text-base font-normal text-slate-100 leading-3">Men's Shoe</span></h1>
+            <h2 class="text-base font-semibold mt-3">PRODUCT DETAILS</h2>
+            <p class="text-sm mt-2">Nothing as fly, nothing as comfortable, nothing as proven.Classic colours celebrate your fresh look while Max Air.</p>
+            <h3 class="text-lg font-semibold mt-3 mb-3">Size</h3>
+            <div class="size flex gap-4">
+                <h3 class="hover:bg-white hover:text-blue-400 hover:cursor-pointer flex justify-center items-center h-10 w-10 text-xl text-slate-200 border border-solid">36</h3>
+                <h3 class="hover:bg-white hover:text-blue-400 hover:cursor-pointer flex justify-center items-center h-10 w-10 text-xl text-slate-200 border border-solid">38</h3>
+                <h3 class="hover:bg-white hover:text-blue-400 hover:cursor-pointer flex justify-center items-center h-10 w-10 text-xl text-slate-200 border border-solid">40</h3>
+                <h3 class="hover:bg-white hover:text-blue-400 hover:cursor-pointer flex justify-center items-center h-10 w-10 text-xl text-slate-200 border border-solid">42</h3>
+                <h3 class="hover:bg-white hover:text-blue-400 hover:cursor-pointer flex justify-center items-center h-10 w-10 text-xl text-slate-200 border border-solid ">44</h3>
+            </div>
+        <div class="flex items-start justify-between mt-5 mx-3">
+            <h1 class="text-3xl"><sup>$</sup>199<small>.99</small></h1>
+            <a href="#" class="text-xl bg-white h-11 w-32 flex items-center justify-center text-blue-400">BUY NOW</a>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
